@@ -2,7 +2,7 @@
 
 ==> For Android Marshmallow Device Use following Code Snippet
 
-public static String getMacAddr() {
+    public static String getMacAddr(String str) {
 
         try {
 
