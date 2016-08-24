@@ -46,7 +46,7 @@
 
     WifiManager wifiManager = (WifiManager) getSystemService(Activity.WIFI_SERVICE);
     WifiInfo wInfo = wifiManager.getConnectionInfo();
-    macAddress = wInfo.getMacAddress();
+    String macAddress = wInfo.getMacAddress();
     
     
     
